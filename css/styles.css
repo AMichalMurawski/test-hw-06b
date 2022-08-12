@@ -1,0 +1,28 @@
+/* Start - variable */
+
+:root {
+	--color-text-all: #212121;
+}
+
+/* End - variable */
+
+/* Start - global style */
+
+body {
+	font-family: "Roboto", sans-serif;
+	color: var(--color-text-all);
+}
+
+/* End - global style */
+
+/* Start - header/footer styling */
+
+/* End - header/footer styling */
+
+/* Start - main styling */
+
+/* End - main styling */
+
+/* Start - styling many */
+
+/* End - styling many */
