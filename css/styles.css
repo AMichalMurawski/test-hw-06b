@@ -1,7 +1,17 @@
 /* Start - variable */
 
 :root {
+	--backgroung-color-all: #e5e5e5;
+	--background-color-dark: #2f303a;
+	--background-color-page: #fff;
 	--color-text-all: #212121;
+	--color-text-contact-footer: #fff;
+	--color-text-contact-footer-special: rgba(255, 255, 255, 0.6);
+	--color-text-contact-header: #757575;
+	--color-text-link: #2196f3;
+	--color-text-logo-footer: #fff;
+	--color-text-logo-header: #000;
+	--color-text-logo-web: #2196f3;
 }
 
 /* End - variable */
@@ -11,11 +21,82 @@
 body {
 	font-family: "Roboto", sans-serif;
 	color: var(--color-text-all);
+	background-color: var(--backgroung-color-all);
 }
 
 /* End - global style */
 
+/* Start - container */
+
+.wrapper {
+	background-color: var(--background-color-page);
+}
+
+/* End - container */
+
+/* Start - styling many */
+
+.dark-background {
+	background-color: var(--background-color-dark);
+}
+
+.list-none {
+	list-style-type: none;
+}
+
+.link-none {
+	text-decoration: none;
+}
+
+/* End - styling many */
+
 /* Start - header/footer styling */
+
+.logo {
+	font-family: "Raleway", sans-serif;
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 1.192307; /* 31px */
+}
+
+.logo-header {
+	color: var(--color-text-logo-header);
+}
+
+.logo-footer {
+	color: var(--color-text-logo-footer);
+}
+
+.logo-web {
+	color: var(--color-text-logo-web);
+}
+
+.menu-list {
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.142857; /* 16px */
+	letter-spacing: 0.02em;
+}
+
+.contact-header {
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.142857; /* 16px */
+	letter-spacing: 0.02em;
+	color: var(--color-text-contact-header);
+}
+
+.contact-footer {
+	font-style: normal;
+	font-size: 14px;
+	line-height: 1.714285; /* 24px */
+	letter-spacing: 0.03em;
+	color: var(--color-text-contact-footer);
+}
+
+.contact-footer-special {
+	color: var(--color-text-contact-footer-special);
+}
 
 /* End - header/footer styling */
 
@@ -23,6 +104,19 @@ body {
 
 /* End - main styling */
 
-/* Start - styling many */
+/* Start - link style */
 
-/* End - styling many */
+.menu-list-item:visited {
+	color: inherit;
+}
+
+.contact:focus,
+.contact:hover,
+.logo:focus,
+.logo:hover,
+.menu-list-item:focus,
+.menu-list-item:hover {
+	color: var(--color-text-link);
+}
+
+/* End - link style */
