@@ -58,7 +58,6 @@ body {
 	font-size: 26px;
 	line-height: 1.192307; /* 31px */
 	color: var(--color-blue);
-
 }
 
 .logo-top {
@@ -118,7 +117,6 @@ body {
 	letter-spacing: 0.06em;
 	color: var(--color-white);
 	background-color: var(--color-blue);
-	border-radius: 4px;
 }
 
 .information-headline {
@@ -150,6 +148,10 @@ body {
 	background-color: var(--background-light);
 }
 
+.employee-list-item {
+	background-color: var(--background-page);
+}
+
 .employee-list-name {
 	font-weight: 500;
 	font-size: 16px;
@@ -177,18 +179,6 @@ body {
 	text-align: center;
 	letter-spacing: 0.03em;
 	background: var(--background-light);
-	border-radius: 4px;
-}
-
-.filter-option:focus,
-.filter-option:hover {
-	color: var(--color-white);
-	background-color: var(--color-blue);
-	cursor: pointer;
-}
-
-.project-list-item {
-	background-color: var(--background-grey);
 }
 
 .project-name {
@@ -208,6 +198,13 @@ body {
 /* End - main portfolio styling */
 
 /* Start - link style */
+
+.filter-option:focus,
+.filter-option:hover {
+	color: var(--color-white);
+	background-color: var(--color-blue);
+	cursor: pointer;
+}
 
 .menu-list-item:visited {
 	color: inherit;
