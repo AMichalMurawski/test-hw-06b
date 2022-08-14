@@ -75,6 +75,10 @@ body {
 	letter-spacing: 0.02em;
 }
 
+.active {
+	color: var(--color-blue);
+}
+
 .contact-top {
 	font-weight: 500;
 	font-size: 14px;
