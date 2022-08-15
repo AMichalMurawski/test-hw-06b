@@ -6,6 +6,8 @@
 	--background-grey: #eee;
 	--background-light: #f5f4fa;
 	--background-page: #fff;
+	--border-grey: #eee;
+	--border-light: #ececec;
 	--color-all: #212121;
 	--color-black: #000;
 	--color-blue: #2196f3;
@@ -24,12 +26,36 @@ body {
 	background-color: var(--backgroung-all);
 }
 
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+figure {
+	margin: 0 auto;
+	padding: 0;
+}
+
 /* End - global style */
 
 /* Start - container */
 
 .wrapper {
+	margin: 0 auto;
+	width: 1600px;
 	background-color: var(--background-page);
+}
+
+.container {
+	margin: 0 auto;
+	width: 1200px;
+}
+
+.section {
+	margin: 0 auto;
+	padding-top: 94px;
+	padding-bottom: 94px;
 }
 
 /* End - container */
@@ -52,11 +78,30 @@ body {
 
 /* Start - header/footer styling */
 
+.border-header {
+	border-bottom: 1px solid var(--border-light);
+}
+
+.box-header {
+	padding-top: 24px;
+	padding-right: 27px;
+	padding-bottom: 24px;
+	padding-left: 15px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.box-footer {
+	padding: 60px 15px;
+}
+
 .logo {
 	font-family: "Raleway", sans-serif;
 	font-weight: 700;
 	font-size: 26px;
 	line-height: 1.192307; /* 31px */
+	letter-spacing: 0.03em;
 	color: var(--color-blue);
 }
 
@@ -69,6 +114,12 @@ body {
 }
 
 .menu-list {
+	margin-right: 371px;
+	margin-left: 93px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	gap: 46px;
 	font-weight: 500;
 	font-size: 14px;
 	line-height: 1.142857; /* 16px */
@@ -77,6 +128,12 @@ body {
 
 .active {
 	color: var(--color-blue);
+}
+
+.contact {
+	display: flex;
+	flex-direction: row;
+	gap: 50px;
 }
 
 .contact-top {
@@ -88,15 +145,21 @@ body {
 }
 
 .contact-bottom {
+	margin-top: 20px;
 	font-style: normal;
 	font-size: 14px;
-	line-height: 1.714285; /* 24px */
+	line-height: 1.5; /* change to 21px (because the height of the element is 21px in the figma layout) ||| in figma: 1.714285; 24px */
 	letter-spacing: 0.03em;
 	color: var(--color-white);
 }
 
 .contact-bottom-special {
 	color: var(--color-white-transparent);
+}
+
+.contact-margin {
+	margin-top: 9px;
+	margin-bottom: 9px;
 }
 
 /* End - header/footer styling */
