@@ -37,6 +37,10 @@ figure {
 	padding: 0;
 }
 
+img {
+	display: block;
+}
+
 /* End - global style */
 
 /* Start - container */
@@ -213,6 +217,7 @@ figure {
 }
 
 .information-headline {
+	margin-bottom: 10px;
 	font-weight: 700;
 	font-size: 14px;
 	line-height: 1.142857; /* 16px */
@@ -223,16 +228,12 @@ figure {
 .information-paragraph {
 	font-weight: 400;
 	font-size: 14px;
-	line-height: 1.6; /* 24px */
+	line-height: 1.785714; /* change to 25px (because the height of the element is 75px [3x25px] in the figma layout) ||| in figma: 1.714285; 24px */
 	letter-spacing: 0.03em;
 	color: var(--color-grey);
 }
 
 /* Section working and employee*/
-.working {
-	padding-inline: 15px;
-}
-
 .working-headline,
 .employee-headline {
 	margin-bottom: 50px;
@@ -241,6 +242,10 @@ figure {
 	line-height: 1.166666; /* 42px */
 	text-align: center;
 	letter-spacing: 0.03em;
+}
+
+.working {
+	padding-inline: 15px;
 }
 
 .working-list {
