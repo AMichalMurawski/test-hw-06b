@@ -174,7 +174,7 @@ img {
 
 /* Start - main index styling */
 
-/* Section service */
+/* --- section service */
 .service {
 	padding: 106px 252px;
 	text-align: center;
@@ -200,11 +200,11 @@ img {
 	letter-spacing: 0.06em;
 	color: var(--color-white);
 	background-color: var(--color-blue);
-	border: none;
+	border-style: none;
 	border-radius: 4px;
 }
 
-/* Section information */
+/* --- section information */
 .information {
 	padding-bottom: 0;
 }
@@ -237,7 +237,7 @@ img {
 	color: var(--color-grey);
 }
 
-/* Section working and employee*/
+/* --- section working and employee*/
 .working-headline,
 .employee-headline {
 	margin-bottom: 50px;
@@ -305,16 +305,53 @@ img {
 
 /* Start - main portfolio styling */
 
+.container-portfolio {
+	padding-inline: 15px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.filter-list {
+	padding-bottom: 16px;
+	margin-bottom: 34px;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 8px;
+}
+
+.filter-list-item {
+	flex-basis: calc((100% - 32px) / 5);
+}
+
 .filter-option {
+	padding: 6px 22px;
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.625; /* 26px */
 	text-align: center;
 	letter-spacing: 0.03em;
 	background: var(--background-light);
+	border-style: none;
+	border-radius: 4px;
+}
+
+.project-list {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 30px;
+}
+
+.project-list-item {
+	flex-basis: calc((100% - 60px) / 4);
+}
+
+.project-caption {
+	padding: 20px 24px;
 }
 
 .project-name {
+	margin-bottom: 4px;
 	font-weight: 700;
 	font-size: 18px;
 	line-height: 2; /* 36px */
