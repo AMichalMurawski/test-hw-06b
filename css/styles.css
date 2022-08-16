@@ -166,6 +166,7 @@ figure {
 
 /* Start - main index styling */
 
+/* Section service */
 .service {
 	padding: 106px 252px;
 	text-align: center;
@@ -195,6 +196,22 @@ figure {
 	border-radius: 4px;
 }
 
+/* Section information */
+.information {
+	padding-bottom: 0;
+}
+
+.information-list {
+	padding-inline: 15px;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 30px;
+}
+
+.information-list-item {
+	flex-basis: calc((100% - 90px) / 4);
+}
+
 .information-headline {
 	font-weight: 700;
 	font-size: 14px;
@@ -211,8 +228,14 @@ figure {
 	color: var(--color-grey);
 }
 
+/* Section working and employee*/
+.working {
+	padding-inline: 15px;
+}
+
 .working-headline,
 .employee-headline {
+	margin-bottom: 50px;
 	font-weight: 700;
 	font-size: 36px;
 	line-height: 1.166666; /* 42px */
@@ -220,26 +243,51 @@ figure {
 	letter-spacing: 0.03em;
 }
 
-.employee {
+.working-list {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 30px;
+}
+
+.working-list-item {
+	flex-basis: calc((100% - 60px) / 3);
+}
+
+.employee-section {
 	background-color: var(--background-light);
+}
+
+.employee {
+	padding-inline: 15px;
+}
+
+.employee-list {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 30px;
 }
 
 .employee-list-item {
 	background-color: var(--background-page);
 }
 
+.employee-list-caption {
+	padding: 30px;
+	text-align: center;
+}
+
 .employee-list-name {
+	margin-bottom: 10px;
+	flex-basis: calc((100% - 90px) / 4);
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.1875; /* 19px */
-	text-align: center;
 	letter-spacing: 0.03em;
 }
 
 .employee-list-position {
 	font-size: 16px;
 	line-height: 1.1875; /* 19px */
-	text-align: center;
 	letter-spacing: 0.03em;
 	color: var(--color-grey);
 }
