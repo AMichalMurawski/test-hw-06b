@@ -150,6 +150,10 @@ img {
 
 .contact-bottom {
 	margin-top: 20px;
+}
+
+.contact-bottom-link {
+	display: block;
 	font-style: normal;
 	font-size: 14px;
 	line-height: 1.5; /* change to 21px (because the height of the element is 21px in the figma layout) ||| in figma: 1.714285; 24px */
