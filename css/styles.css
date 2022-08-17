@@ -74,8 +74,8 @@ img {
   background-color: var(--background-gray);
 }
 
-.background--light{
-	background-color: var(--background-white);
+.background--light {
+  background-color: var(--background-white);
 }
 
 /* End - container */
@@ -108,7 +108,7 @@ img {
   border-bottom: 1px solid var(--border-light);
 }
 
-.border--gray{
+.border--gray {
   border-bottom: 1px solid var(--border-gray);
 }
 
@@ -230,6 +230,7 @@ img {
   background-color: var(--color-blue);
   border: none;
   border-radius: 4px;
+  cursor: pointer;
 }
 
 /* --- section information */
@@ -340,13 +341,6 @@ img {
 
 /* Start - link style */
 
-.filter__btn:focus,
-.filter__btn:hover {
-  color: var(--color-white);
-  background-color: var(--color-blue);
-  cursor: pointer;
-}
-
 .link:visited {
   color: inherit;
 }
@@ -354,6 +348,13 @@ img {
 .link:focus,
 .link:hover {
   color: var(--color-blue);
+}
+
+.filter__btn:focus,
+.filter__btn:hover {
+  color: var(--color-white);
+  background-color: var(--color-blue);
+  cursor: pointer;
 }
 
 /* End - link style */
