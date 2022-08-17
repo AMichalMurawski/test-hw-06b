@@ -11,32 +11,40 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./css/modern-normalize.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.css"
+      integrity="sha512-Y0MM+V6ymRKN2zStTqzQ227DWhhp4Mzdo6gnlRnuaNCbc+YN/ZH0sBCLTM4M0oSy9c9VKiCvd4Jk44aCLrNS5Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <div class="wrapper">
-      <header class="border-header">
-        <div class="container box-header">
-          <a class="logo link-none" href="./index.html">Web<span class="logo-top">Studio</span></a>
+      <header class="border--light">
+        <div class="container container--header">
+          <a class="link" href="./index.html">
+            <span class="logo">Web</span><span class="logo logo--top">Studio</span>
+          </a>
 
           <nav>
-            <ul class="menu-list list-none">
+            <ul class="menu list">
               <li>
-                <a class="menu-list-item link-none" href="./index.html">Agencja</a>
+                <a class="link" href="./index.html">Agencja</a>
               </li>
-              <li class="active">
-                <a class="menu-list-item link-none" href="./portfolio.html">Portfolio</a>
+              <li class="menu--active">
+                <a class="link" href="./portfolio.html">Portfolio</a>
               </li>
               <li>
-                <a class="menu-list-item link-none" href="#contacts">Kontakt</a>
+                <a class="link" href="">Kontakt</a>
               </li>
             </ul>
           </nav>
 
-          <div class="contact">
-            <a class="contact-top link-none" href="mailto:info@devstudio.com">info@devstudio.com</a>
-            <a class="contact-top link-none" href="tel:+48111111111">+48 111 111 111</a>
+          <div class="contact--flex">
+            <a class="contact__header link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <a class="contact__header link" href="tel:+48111111111">+48 111 111 111</a>
           </div>
         </div>
       </header>
@@ -44,31 +52,26 @@
       <main>
         <section class="section">
           <div class="container">
-            <div class="container-portfolio">
-              <ul class="filter-list list-none">
-                <li class="filter-list-item">
-                  <button class="filter-option" type="button">Wszystkie</button>
+              <ul class="filter list">
+                <li class="filter__item">
+                  <button class="filter__btn" type="button">Wszystkie</button>
                 </li>
-
-                <li class="filter-list-item">
-                  <button class="filter-option" type="button">Strony</button>
+                <li class="filter__item">
+                  <button class="filter__btn" type="button">Strony</button>
                 </li>
-
-                <li class="filter-list-item">
-                  <button class="filter-option" type="button">Aplikacje</button>
+                <li class="filter__item">
+                  <button class="filter__btn" type="button">Aplikacje</button>
                 </li>
-
-                <li class="filter-list-item">
-                  <button class="filter-option" type="button">Dizajn</button>
+                <li class="filter__item">
+                  <button class="filter__btn" type="button">Dizajn</button>
                 </li>
-
-                <li class="filter-list-item">
-                  <button class="filter-option" type="button">Marketing</button>
+                <li class="filter__item">
+                  <button class="filter__btn" type="button">Marketing</button>
                 </li>
               </ul>
 
-              <ul class="project-list list-none">
-                <li class="project-list-item">
+              <ul class="box--flex30 list">
+                <li class="box--basis3 border--gray">
                   <figure>
                     <img
                       src="./images/portfolio-1.jpg"
@@ -76,13 +79,13 @@
                       width="370"
                       height="294"
                     />
-                    <figcaption class="project-caption">
-                      <h4 class="project-name">Technocrack</h4>
-                      <p class="project-type">Strona internetowa</p>
+                    <figcaption class="project">
+                      <h4 class="project__name">Technocrack</h4>
+                      <p class="project__type">Strona internetowa</p>
                     </figcaption>
                   </figure>
                 </li>
-                <li class="project-list-item">
+                <li class="box--basis3 border--gray">
                   <figure>
                     <img
                       src="./images/portfolio-2.jpg"
@@ -90,13 +93,13 @@
                       width="370"
                       height="294"
                     />
-                    <figcaption class="project-caption">
-                      <h4 class="project-name">Grafika New Orlean vs Golden Star</h4>
-                      <p class="project-type">Dizajn</p>
+                    <figcaption class="project">
+                      <h4 class="project__name">Grafika New Orlean vs Golden Star</h4>
+                      <p class="project__type">Dizajn</p>
                     </figcaption>
                   </figure>
                 </li>
-                <li class="project-list-item">
+                <li class="box--basis3 border--gray">
                   <figure>
                     <img
                       src="./images/portfolio-3.jpg"
@@ -104,13 +107,13 @@
                       width="370"
                       height="294"
                     />
-                    <figcaption class="project-caption">
-                      <h4 class="project-name">Restauracja Seafood</h4>
-                      <p class="project-type">Aplikacja</p>
+                    <figcaption class="project">
+                      <h4 class="project__name">Restauracja Seafood</h4>
+                      <p class="project__type">Aplikacja</p>
                     </figcaption>
                   </figure>
                 </li>
-                <li class="project-list-item">
+                <li class="box--basis3 border--gray">
                   <figure>
                     <img
                       src="./images/portfolio-4.jpg"
@@ -118,13 +121,13 @@
                       width="370"
                       height="294"
                     />
-                    <figcaption class="project-caption">
-                      <h4 class="project-name">Projekt Prime</h4>
-                      <p class="project-type">Marketing</p>
+                    <figcaption class="project">
+                      <h4 class="project__name">Projekt Prime</h4>
+                      <p class="project__type">Marketing</p>
                     </figcaption>
                   </figure>
                 </li>
-                <li class="project-list-item">
+                <li class="box--basis3 border--gray">
                   <figure>
                     <img
                       src="./images/portfolio-5.jpg"
@@ -132,13 +135,13 @@
                       width="370"
                       height="294"
                     />
-                    <figcaption class="project-caption">
-                      <h4 class="project-name">Projekt Boxes</h4>
-                      <p class="project-type">Aplikacja</p>
+                    <figcaption class="project">
+                      <h4 class="project__name">Projekt Boxes</h4>
+                      <p class="project__type">Aplikacja</p>
                     </figcaption>
                   </figure>
                 </li>
-                <li class="project-list-item">
+                <li class="box--basis3 border--gray">
                   <figure>
                     <img
                       src="./images/portfolio-6.jpg"
@@ -146,13 +149,13 @@
                       width="370"
                       height="294"
                     />
-                    <figcaption class="project-caption">
-                      <h4 class="project-name">Inspiration has no Borders</h4>
-                      <p class="project-type">Strona internetowa</p>
+                    <figcaption class="project">
+                      <h4 class="project__name">Inspiration has no Borders</h4>
+                      <p class="project__type">Strona internetowa</p>
                     </figcaption>
                   </figure>
                 </li>
-                <li class="project-list-item">
+                <li class="box--basis3 border--gray">
                   <figure>
                     <img
                       src="./images/portfolio-7.jpg"
@@ -160,13 +163,13 @@
                       width="370"
                       height="294"
                     />
-                    <figcaption class="project-caption">
-                      <h4 class="project-name">Magazyn Limited Edition</h4>
-                      <p class="project-type">Dizajn</p>
+                    <figcaption class="project">
+                      <h4 class="project__name">Magazyn Limited Edition</h4>
+                      <p class="project__type">Dizajn</p>
                     </figcaption>
                   </figure>
                 </li>
-                <li class="project-list-item">
+                <li class="box--basis3 border--gray">
                   <figure>
                     <img
                       src="./images/portfolio-8.jpg"
@@ -174,13 +177,13 @@
                       width="370"
                       height="294"
                     />
-                    <figcaption class="project-caption">
-                      <h4 class="project-name">Projekt LAB</h4>
-                      <p class="project-type">Marketing</p>
+                    <figcaption class="project">
+                      <h4 class="project__name">Projekt LAB</h4>
+                      <p class="project__type">Marketing</p>
                     </figcaption>
                   </figure>
                 </li>
-                <li class="project-list-item">
+                <li class="box--basis3 border--gray">
                   <figure>
                     <img
                       src="./images/portfolio-9.jpg"
@@ -188,38 +191,37 @@
                       width="370"
                       height="294"
                     />
-                    <figcaption class="project-caption">
-                      <h4 class="project-name">Growing Business</h4>
-                      <p class="project-type">Aplikacja</p>
+                    <figcaption class="project">
+                      <h4 class="project__name">Growing Business</h4>
+                      <p class="project__type">Aplikacja</p>
                     </figcaption>
                   </figure>
                 </li>
               </ul>
             </div>
-          </div>
         </section>
       </main>
 
-      <footer class="dark-background">
-        <div class="container box-footer">
-          <a class="logo link-none" href="./index.html"
-            >Web<span class="logo-bottom">Studio</span></a
+      <footer class="background--dark">
+        <div class="container container--footer">
+          <a class="link" href="./index.html"
+            ><span class="logo">Web</span><span class="logo logo--bottom">Studio</span></a
           >
 
-          <address class="contact-bottom" id="contacts">
+          <address class="contact__footer contact--margin">
             <a
-              class="contact-bottom-link link-none"
+              class="contact__footer link"
               href="https://www.google.com/maps/place/al.+Jerozolimskie+21,+00-508+Warszawa/@52.2305286,21.013843,17z/data=!3m1!4b1!4m5!3m4!1s0x471eccf3e52bee23:0xc5163bc7ec8d4437!8m2!3d52.2305286!4d21.0160317"
               target="_blank"
               rel="noopener noreferrer"
               >m. Warszawa, Aleje Jerozolimskie 21</a
             >
             <a
-              class="contact-bottom-link contact-bottom-special contact-margin link-none"
+              class="contact__footer contact__footer--special contact__footer--margin link"
               href="mailto:info@devstudio.com"
               >info@devstudio.com</a
             >
-            <a class="contact-bottom-link contact-bottom-special link-none" href="tel:+48111111111"
+            <a class="contact__footer contact__footer--special link" href="tel:+48111111111"
               >+48 111 111 111</a
             >
           </address>
