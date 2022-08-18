@@ -78,6 +78,14 @@ img {
   background-color: var(--background-white);
 }
 
+.background--image {
+  background-image: linear-gradient(to bottom, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url('/images/team-working.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 1600px;
+}
+
 /* End - container */
 
 /* Start - styling many */
