@@ -92,6 +92,37 @@ img {
 
 .icon {
   display: block;
+  fill: currentColor;
+}
+
+.icon__social {
+  width: 44px;
+  height: 44px;
+  border: none;
+  border-radius: 50%;
+  fill: #afb1b8;
+}
+
+.icon__social:hover,
+.icon__social:focus {
+  background-color: #2196f3;
+  fill: #fff;
+  cursor: pointer;
+}
+
+.icon__customer {
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  fill: #afb1b8;
+}
+
+.icon__customer:hover,
+.icon__customer:focus {
+  border-color: #2196f3;
+  fill: #2196f3;
+  cursor: pointer;
 }
 
 .list {
@@ -102,18 +133,28 @@ img {
   text-decoration: none;
 }
 
-.box--flex30 {
+.box__flex--center10 {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.box__flex--wrap30 {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
 }
 
-.box--basis3 {
+.box__flex--basis3 {
   flex-basis: calc((100% - 60px) / 3);
 }
 
-.box--basis4 {
+.box__flex--basis4 {
   flex-basis: calc((100% - 90px) / 4);
+}
+
+.box__flex--basis6 {
+  flex-basis: calc((100% - 150px) / 6);
 }
 
 .border--light {
@@ -247,7 +288,7 @@ img {
 
 /* --- section information */
 
-.information__icon {
+.frame--primary {
   padding: 25px 100px;
   margin-bottom: 30px;
   background-color: #f5f4fa;
@@ -283,8 +324,7 @@ img {
 }
 
 .card--constant {
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
 
@@ -302,6 +342,7 @@ img {
 }
 
 .employee__position {
+  margin-bottom: 16px;
   font-size: 16px;
   line-height: 1.1875; /* 19px */
   letter-spacing: 0.03em;
@@ -380,14 +421,12 @@ img {
 .filter__btn:hover {
   color: var(--color-white);
   background-color: var(--color-blue);
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-    1px 4px 6px rgba(0, 0, 0, 0.16);
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
   cursor: pointer;
 }
 
 .card--mark:hover {
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-    1px 4px 6px rgba(0, 0, 0, 0.16);
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
   cursor: pointer;
 }
 
