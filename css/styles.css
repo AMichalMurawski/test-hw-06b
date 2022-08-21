@@ -90,6 +90,10 @@ img {
 
 /* Start - styling many */
 
+.icon {
+  display: block;
+}
+
 .list {
   list-style-type: none;
 }
@@ -242,6 +246,14 @@ img {
 }
 
 /* --- section information */
+
+.information__icon {
+  padding: 25px 100px;
+  margin-bottom: 30px;
+  background-color: #f5f4fa;
+  border: none;
+  border-radius: 4px;
+}
 
 .information__headline {
   margin-bottom: 10px;
