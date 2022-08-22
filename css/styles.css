@@ -235,7 +235,7 @@ img {
 .contact--flex {
   display: flex;
   flex-direction: row;
-  gap: 50px;
+  gap: 30px;
 }
 
 .contact--margin {
