@@ -78,7 +78,8 @@ img {
 }
 
 .background--image {
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url('/images/team-working.jpg');
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url('https://github.com/AMichalMurawski/goit-markup-hw-04/blob/main/images/team-working.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: 1600px;
@@ -87,6 +88,50 @@ img {
 /* End - container */
 
 /* Start - styling many */
+
+.list {
+  list-style-type: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.flex--center10 {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.flex--wrap30 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.flex--basis3 {
+  flex-basis: calc((100% - 60px) / 3);
+}
+
+.flex--basis4 {
+  flex-basis: calc((100% - 90px) / 4);
+}
+
+.flex--basis6 {
+  flex-basis: calc((100% - 150px) / 6);
+}
+
+.border--light {
+  border-bottom: 1px solid var(--border-light);
+}
+
+.border--gray {
+  border-bottom: 1px solid var(--border-gray);
+}
+
+/* End - styling many */
+
+/* Start - icons */
 
 .icon {
   display: block;
@@ -137,47 +182,7 @@ img {
   cursor: pointer;
 }
 
-.list {
-  list-style-type: none;
-}
-
-.link {
-  text-decoration: none;
-}
-
-.flex--center10 {
-  display: flex;
-  justify-content: center;
-  gap: 10px;
-}
-
-.flex--wrap30 {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 30px;
-}
-
-.flex--basis3 {
-  flex-basis: calc((100% - 60px) / 3);
-}
-
-.flex--basis4 {
-  flex-basis: calc((100% - 90px) / 4);
-}
-
-.flex--basis6 {
-  flex-basis: calc((100% - 150px) / 6);
-}
-
-.border--light {
-  border-bottom: 1px solid var(--border-light);
-}
-
-.border--gray {
-  border-bottom: 1px solid var(--border-gray);
-}
-
-/* End - styling many */
+/* End - icons */
 
 /* Start - header/footer styling */
 
