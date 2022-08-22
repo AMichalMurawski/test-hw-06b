@@ -46,7 +46,6 @@ img {
 
 .wrapper {
   margin: 0 auto;
-  width: 100%;
   background-color: var(--background-white);
 }
 
@@ -95,12 +94,26 @@ img {
   fill: currentColor;
 }
 
+.icon__information {
+  margin-bottom: 30px;
+  width: 270px;
+  height: 120px;
+  background-color: #f5f4fa;
+  border: none;
+  border-radius: 4px;
+}
+
 .icon__social {
   width: 44px;
   height: 44px;
   border: none;
   border-radius: 50%;
   fill: #afb1b8;
+}
+
+.icon__social--special {
+  fill: #fff;
+  background: rgba(255, 255, 255, 0.1);
 }
 
 .icon__social:hover,
@@ -133,27 +146,27 @@ img {
   text-decoration: none;
 }
 
-.box__flex--center10 {
+.flex--center10 {
   display: flex;
   justify-content: center;
   gap: 10px;
 }
 
-.box__flex--wrap30 {
+.flex--wrap30 {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
 }
 
-.box__flex--basis3 {
+.flex--basis3 {
   flex-basis: calc((100% - 60px) / 3);
 }
 
-.box__flex--basis4 {
+.flex--basis4 {
   flex-basis: calc((100% - 90px) / 4);
 }
 
-.box__flex--basis6 {
+.flex--basis6 {
   flex-basis: calc((100% - 150px) / 6);
 }
 
@@ -179,6 +192,10 @@ img {
 
 .container--footer {
   padding: 60px 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  gap: 70px;
 }
 
 .logo {
@@ -251,6 +268,17 @@ img {
   margin-bottom: 9px;
 }
 
+.social__headline {
+  margin-top: 12px;
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.142857; /* 16px */
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--color-white);
+}
+
 /* End - header/footer styling */
 
 /* Start - main index styling */
@@ -287,14 +315,6 @@ img {
 }
 
 /* --- section information */
-
-.frame--primary {
-  padding: 25px 100px;
-  margin-bottom: 30px;
-  background-color: #f5f4fa;
-  border: none;
-  border-radius: 4px;
-}
 
 .information__headline {
   margin-bottom: 10px;
