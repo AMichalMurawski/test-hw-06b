@@ -227,6 +227,17 @@ img {
   color: var(--color-blue);
 }
 
+.menu--active::after {
+  position: absolute;
+  content: '';
+  display: block;
+  width: 58px;
+  height: 4px;
+  margin-top: 28.5px;
+  background-color: var(--color-blue);
+  border-radius: 2px;
+}
+
 .contact--flex {
   display: flex;
   flex-direction: row;
