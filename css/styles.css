@@ -566,7 +566,9 @@ a:focus .icon__customer {
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: all 250ms ease-in-out;
+  visibility: visible;
+  opacity: 1;
+  transition: opacity 250ms ease-in-out; visibility 250ms ease-in-out
 }
 
 .modal {
@@ -598,6 +600,7 @@ a:focus .icon__customer {
   visibility: hidden;
   opacity: 0;
   pointer-events: none;
+  transition: opacity 250ms ease-in-out; visibility 250ms ease-in-out
 }
 
 .btn-close:hover,
