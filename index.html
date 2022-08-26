@@ -430,8 +430,8 @@
               <a class="contact__footer contact__footer--special link" href="tel:+48111111111">+48 111 111 111</a>
             </address>
           </div>
-          <div>
-            <h3 class="social__headline">Dołącz do nas</h3>
+          <div class="footer__social">
+            <h3 class="footer__headline">Dołącz do nas</h3>
             <ul class="flex--center10 list">
               <li>
                 <a href="">
@@ -463,17 +463,41 @@
               </li>
             </ul>
           </div>
+          <div class="footer__newsletter">
+            <h3 class="footer__headline">Zapisz się do newslettera</h3>
+            <form class="frm-newsletter" name="newsletter" autocomplete="on">
+              <label>
+                <input class="frm-newsletter__email" type="email" name="email" placeholder="E-mail" />
+              </label>
+              <button class="newsletter_btn" type="submit">
+                <span>Zapisz się</span>
+                <svg class="icon icon__send">
+                  <use href="./images/icons.svg#icon-send" width="24" height="24"></use>
+                </svg>
+              </button>
+            </form>
+          </div>
         </div>
       </footer>
     </div>
 
-    <div class="backdrop is-hidden asd" data-modal data-modal-close>
+    <!-- <div class="backdrop is-hidden" data-modal data-modal-close> -->
+    <div class="backdrop" data-modal>
       <div class="modal">
         <button class="btn-close" type="button" data-modal-close>
           <svg class="icon icon__btn-close">
             <use href="./images/icons.svg#icon-btn-close" width="18" height="18"></use>
           </svg>
         </button>
+        <form action="">
+          <p></p>
+          <label for=""><input type="text" /></label>
+          <label for=""><input type="text" /></label>
+          <label for=""><input type="text" /></label>
+          <label for=""><input type="text" /></label>
+          <label for=""><input type="text" /></label>
+          <button></button>
+        </form>
       </div>
     </div>
 
