@@ -489,14 +489,39 @@
             <use href="./images/icons.svg#icon-btn-close" width="18" height="18"></use>
           </svg>
         </button>
-        <form action="">
-          <p></p>
-          <label for=""><input type="text" /></label>
-          <label for=""><input type="text" /></label>
-          <label for=""><input type="text" /></label>
-          <label for=""><input type="text" /></label>
-          <label for=""><input type="text" /></label>
-          <button></button>
+        <form class="frm-service" name="service-order" action="">
+          <p class="frm-service__title">Zostaw swoje dane w formularzu poniżej</p>
+          <label class="frm-service__lbl">
+            Imie
+            <svg class="icon icon__input">
+              <use href="./images/icons.svg#icon-person-black" width="18" height="18"></use>
+            </svg>
+            <input type="text" name="user-name" />
+          </label>
+          <label class="frm-service__lbl">
+            Telefon
+            <svg class="icon icon__input">
+              <use href="./images/icons.svg#icon-phone-black" width="18" height="18"></use>
+            </svg>
+            <input type="tel" name="user-phone" />
+          </label>
+          <label class="frm-service__lbl">
+            Email
+            <svg class="icon icon__input">
+              <use href="./images/icons.svg#icon-email-black" width="18" height="18"></use>
+            </svg>
+            <input type="email" name="user-mail" />
+          </label>
+          <label class="frm-service__lbl">
+            Komentarz
+            <textarea name="user-comment" rows="7" placeholder="Wprowadź tekst"></textarea>
+          </label>
+          <label class="frm-service__chb">
+            <input type="checkbox" name="confirm-regulation" />
+            Oświadczam iż akceptuję <a class="frm_service__cbh--link" href="#">Regulamin</a> i
+            <a class="frm_service__cbh--link" href="#">Politykę Prywatności</a>.
+          </label>
+          <button class="frm-service__btn" type="submit">Wyślij</button>
         </form>
       </div>
     </div>

@@ -182,6 +182,14 @@ img {
   margin-left: 24px;
 }
 
+.icon__input {
+  position: absolute;
+  top: 29px;
+  left: 12px;
+  width: 18px;
+  height: 18px;
+}
+
 /* End - icons */
 
 /* Start - header/footer styling */
@@ -326,6 +334,10 @@ img {
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
+}
+
+.frm-newsletter__email::placeholder {
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .newsletter_btn {
@@ -660,6 +672,83 @@ a:focus .icon__customer {
 .btn-close:hover,
 .btn-close:focus {
   cursor: pointer;
+}
+
+.frm-service {
+  width: 100%;
+  height: 100%;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.frm-service__title {
+  margin-bottom: 12px;
+
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.15; /* 23px */
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.frm-service__lbl {
+  position: relative;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+
+  font-size: 12px;
+  line-height: 1.166667; /* 14px */
+  letter-spacing: 0.01em;
+  color: var(--color-gray);
+}
+
+.frm-service__lbl > input {
+  height: 40px;
+  padding: 12px 12px 12px 42px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+}
+
+.frm-service__lbl > textarea {
+  padding: 12px 16px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  resize: none;
+}
+
+.frm-service__lbl > textarea::placeholder {
+  color: rgba(117, 117, 117, 0.5);
+}
+
+.frm-service__chb {
+  margin-top: 10px;
+  font-size: 14px;
+  line-height: 1.714285; /* 24px */
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: var(--color-gray);
+}
+
+.frm_service__cbh--link {
+  color: var(--color-blue);
+}
+
+.frm-service__btn {
+  padding: 10px 76px;
+  margin: 30px auto;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875; /* 30px */
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--color-white);
+  background: var(--color-blue);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: none;
 }
 
 /* End - modal window */
