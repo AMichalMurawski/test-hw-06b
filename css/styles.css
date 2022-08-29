@@ -710,7 +710,7 @@ a:focus .icon__customer {
   padding: 12px 12px 12px 42px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
-  outline:none;
+  outline: none;
 }
 
 .frm-service__lbl > input:focus{
@@ -726,6 +726,11 @@ a:focus .icon__customer {
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   resize: none;
+  outline: none;
+}
+
+.frm-service__lbl > textarea:focus{
+  border-color: var(--color-blue);
 }
 
 .frm-service__lbl > textarea::placeholder {
