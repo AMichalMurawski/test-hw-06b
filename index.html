@@ -465,7 +465,7 @@
           </div>
           <div class="footer__newsletter">
             <h3 class="footer__headline">Zapisz się do newslettera</h3>
-            <form class="frm-newsletter" name="newsletter" autocomplete="on">
+            <form class="frm-newsletter" name="newsletter">
               <label>
                 <input class="frm-newsletter__email" type="email" name="email" placeholder="E-mail" />
               </label>
@@ -481,8 +481,7 @@
       </footer>
     </div>
 
-    <!-- <div class="backdrop is-hidden" data-modal data-modal-close> -->
-    <div class="backdrop" data-modal>
+    <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button class="btn-close" type="button" data-modal-close>
           <svg class="icon icon__btn-close">
@@ -517,12 +516,13 @@
             <textarea name="user-comment" rows="7" placeholder="Wprowadź tekst"></textarea>
           </label>
           <label class="frm-service__chb">
-            <svg class="icon icon__check">
-              <use href="./images/icons.svg#icon-check" width="16" height="16"></use>
-            </svg>
+            Oświadczam iż akceptuję <a class="frm-service__chb--link" href="#">Regulamin</a> i
+            <a class="frm-service__chb--link" href="#">Politykę Prywatności</a>.
             <input type="checkbox" name="confirm-regulation" />
-            Oświadczam iż akceptuję <a class="frm_service__cbh--link" href="#">Regulamin</a> i
-            <a class="frm_service__cbh--link" href="#">Politykę Prywatności</a>.
+            <svg class="icon icon__check">
+              <use href="./images/icons.svg#icon-check" width="16" height="15"></use>
+            </svg>
+            <span class="frm-service__chb--no-check"></span>
           </label>
           <button class="frm-service__btn" type="submit">Wyślij</button>
         </form>
