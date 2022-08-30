@@ -603,6 +603,10 @@ a:focus .icon__customer {
   cursor: pointer;
 }
 
+.newsletter_btn {
+  cursor: pointer;
+}
+
 .link:visited {
   color: inherit;
 }
@@ -817,6 +821,10 @@ a:focus .icon__customer {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border: none;
+}
+
+.frm-service__btn {
+  cursor: pointer;
 }
 
 /* End - modal window */
