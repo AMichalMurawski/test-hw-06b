@@ -2,6 +2,7 @@
   const refs = {
     openModalBtn: document.querySelector('[data-modal-open]'),
     closeModalBtn: document.querySelector('[data-modal-close]'),
+    closeModalBtn: document.querySelector('body'),
     modal: document.querySelector('[data-modal]'),
   };
 
